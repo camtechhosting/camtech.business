@@ -1,5 +1,27 @@
 .main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid gray;
+  height: 6rem;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.navListItem {
+  padding: 0 0.5rem;
 }
